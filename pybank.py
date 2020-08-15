@@ -11,7 +11,7 @@ variacion =[]
 for i in range(len(profit_losses)):
     if i<len(profit_losses)-1:
         variacion.append(profit_losses[i+1]- profit_losses[i])
-    
+     
 
 print(f' "Profit" {sum(profit_losses)}')
 print(f' "Promedio" {sum(variacion)/len(variacion )}')
